@@ -97,13 +97,13 @@ freeFire.addEventListener("click", () => {
   ffGame.style.display = "flex";
   bgmiGame.style.display = "none";
   ludoGame.style.display = "none";
-  if ((freeFire.style.left = "9vw")) {
-    freeFire.style.left = "37vw";
-    bgmi.style.left = "9vw";
-    ludo.style.left = "65vw";
-    freeFire.style.height = "40vh";
-    bgmi.style.height = "35vh";
-    ludo.style.height = "35vh";
+  if (freeFire.style.left = "1vw") {
+    freeFire.style.left = "32vw";
+    bgmi.style.left = "1vw";
+    ludo.style.left = "62vw";
+    freeFire.style.height = "50vh";
+    bgmi.style.height = "40vh";
+    ludo.style.height = "40vh";
   }
 });
 // click bgmi
@@ -111,18 +111,18 @@ bgmi.addEventListener("click", () => {
   ffGame.style.display = "none";
   bgmiGame.style.display = "flex";
   ludoGame.style.display = "none";
-  if (bgmi.style.left == "9vw") {
-    freeFire.style.left = "9vw";
-    bgmi.style.left = "37vw";
-    ludo.style.left = "65vw";
-    freeFire.style.height = "35vh";
-    bgmi.style.height = "40vh";
+  if (bgmi.style.left = "1vw") {
+    freeFire.style.left = "1vw";
+    bgmi.style.left = "32vw";
+    ludo.style.left = "62vw";
+    freeFire.style.height = "40vh";
+    bgmi.style.height = "50vh";
   }
-  if ((bgmi.style.left = "65vw")) {
-    ludo.style.left = "65vw";
-    bgmi.style.left = "37vw";
-    ludo.style.height = "35vh";
-    bgmi.style.height = "40vh";
+  if (bgmi.style.left = "62vw") {
+    ludo.style.left = "62vw";
+    bgmi.style.left = "32vw";
+    ludo.style.height = "40vh";
+    bgmi.style.height = "50vh";
   }
 });
 
@@ -132,12 +132,15 @@ ludo.addEventListener("click", () => {
   bgmiGame.style.display = "none";
   ludoGame.style.display = "flex";
 
-  if ((ludo.style.left = "65vw")) {
-    bgmi.style.left = "65vw";
-    ludo.style.left = "37vw";
-    freeFire.style.left = "9vw";
-    ludo.style.height = "40vh";
-    bgmi.style.height = "35vh";
-    freeFire.style.height = "35vh";
+  if ((ludo.style.left = "62vw")) {
+    bgmi.style.left = "62vw";
+    ludo.style.left = "32vw";
+    freeFire.style.left = "1vw";
+    ludo.style.height = "50vh";
+    bgmi.style.height = "40vh";
+    freeFire.style.height = "40vh";
   }
 });
+
+
+
